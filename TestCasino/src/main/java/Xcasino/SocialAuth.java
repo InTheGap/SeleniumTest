@@ -90,21 +90,21 @@ public class SocialAuth {
 
     public void socialAuthorizationMm() {
         socialAuthorization(authorizationMmButton, mmInputLoginField, mmInputPasswordField, mmAuthButton,
-                "d_d-d11", "123456qa");
+                "", "");
     }
 
     public void socialAuthorizationOk(){
         socialAuthorization(authorizationOkButton, okInputLoginField, okInputPasswordField, okAuthButton,
-                "twotestqa2@gmail.com", "321678910");
+                "", "");
     }
 
     public void socialAuthorizationVk(){
         socialAuthorization(authorizationVkButton, vkInputLoginField, vkInputPasswordField, vkAuthButton,
-                "onetestqa1@gmail.com", "321678910");
+                "", "");
     }
 
     public void socialAuthorizationFb(){
         socialAuthorization(authorizationFbButton, fbInputLoginField, fbInputPasswordField, fbAuthButton,
-                "onetestqa1@gmail.com", "321678910");
+                "", "");
     }
 }
