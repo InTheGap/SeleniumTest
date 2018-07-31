@@ -80,8 +80,8 @@ public class UnauthorisedLobby {
     public void simpleAuthorizationRu(){
         webDriverWait.until(ExpectedConditions.visibilityOf(enterButtonAfterLoadUnAuthorizedLobby));
         jsClick(enterButtonAfterLoadUnAuthorizedLobby);
-        webDriverWait.until(ExpectedConditions.visibilityOf(authFormLogin)).sendKeys("askd390849");
-        webDriverWait.until(ExpectedConditions.visibilityOf(authFormPassword)).sendKeys("123");
+        webDriverWait.until(ExpectedConditions.visibilityOf(authFormLogin)).sendKeys("");
+        webDriverWait.until(ExpectedConditions.visibilityOf(authFormPassword)).sendKeys("");
         webDriverWait.until(ExpectedConditions.elementToBeClickable(authorizationButton));
         jsClick(authorizationButton);
     }
